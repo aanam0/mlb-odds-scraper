@@ -80,7 +80,7 @@ def debug():
 
 # output
 def write_to_csv():
-    with open('out.csv', 'w', newline='') as csvfile:
+    with open('output/out.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         header = ['game_id', 'date', 'team', 'moneyline', 'runspread', 'runspread_odds', 'totalruns', 'totalruns_odds']
         writer.writerow(header)
