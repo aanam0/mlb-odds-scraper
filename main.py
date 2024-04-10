@@ -26,7 +26,7 @@ def scrape_page():
     # iterate over each game (1 pair of teams)
     for game_num, game in enumerate(wrapper):
         game_data = list()
-        print(f"===== GAME {game_num}=====")
+        print(f"===== GAME {game_num} =====")
 
         game_html_soup = BeautifulSoup(str(game), "html.parser")
 
@@ -59,26 +59,6 @@ def scrape_page():
         all_games.append(game_data)
 
 
-def debug():
-    url = 'https://sports.yahoo.com/mlb/odds/'
-    response = requests.get(url)
-
-    soup = BeautifulSoup(response.content, 'html.parser')
-    games_data = soup.find_all('div', class_='game')
-
-    data_list = []
-    for game in games_data:
-        home_team = game.find('span', class_='team home').text.strip()
-        away_team = game.find('span', class_='team away').text.strip()
-        home_odds = game.find('span', class_='line home').text.strip()
-        away_odds = game.find('span', class_='line away').text.strip()
-        data_list.append([home_team, away_team, home_odds, away_odds])
-
-    df = pd.DataFrame(data_list, columns=['Home Team', 'Away Team', 'Home Odds', 'Away Odds'])
-    df.to_csv('mlb_odds.csv', index=False)
-
-
-# output
 def write_to_csv():
     with open('output/out.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
@@ -86,7 +66,6 @@ def write_to_csv():
         writer.writerow(header)
         for i in all_games:
             writer.writerows(i)
-    print(all_games)
 
 
 if __name__ == '__main__':
