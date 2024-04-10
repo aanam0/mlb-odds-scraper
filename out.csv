@@ -1,8 +1,8 @@
-game_id,date,team1,moneyline1,rspread1,rspread1odds,truns1,truns1odds
+game_id,date,team,moneyline,runspread,runspread_odds,totalruns,totalruns_odds
 0,2024-04-09,Los Angeles Dodgers,-165,-1.5,-105,O 8.5,-115
 0,2024-04-09,Minnesota Twins,+140,+1.5,-115,U 8.5,-105
 1,2024-04-09,Philadelphia Phillies,-150,-1.5,+110,O 7.5,-115
-1,2024-04-09,St. Louis Cardinals,+125,+1.5,-130,U 7.5,-105
+1,2024-04-09,St. Louis Cardinals,+125,+1.5,-135,U 7.5,-105
 2,2024-04-09,Seattle Mariners,-110,-1.5,+155,O 8,-120
 2,2024-04-09,Toronto Blue Jays,-110,+1.5,-190,U 8,+100
 3,2024-04-09,Arizona Diamondbacks,-145,-1.5,+100,O 11,-120
