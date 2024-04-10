@@ -26,7 +26,7 @@ def scrape_page():
     # iterate over each game (1 pair of teams)
     for game_num, game in enumerate(wrapper):
         game_data = list()
-        #print(f"===== GAME {game_num}=====")
+        print(f"===== GAME {game_num}=====")
 
         game_html_soup = BeautifulSoup(str(game), "html.parser")
 
