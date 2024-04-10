@@ -1,18 +1,18 @@
 game_id,date,team1,moneyline1,rspread1,rspread1odds,truns1,truns1odds
-0,2024-04-09,Los Angeles Dodgers,-165,-1.5,-105,O 9,+100
-0,2024-04-09,Minnesota Twins,+140,+1.5,-115,U 9,-120
+0,2024-04-09,Los Angeles Dodgers,-165,-1.5,-105,O 8.5,-115
+0,2024-04-09,Minnesota Twins,+140,+1.5,-115,U 8.5,-105
 1,2024-04-09,Philadelphia Phillies,-150,-1.5,+110,O 7.5,-115
 1,2024-04-09,St. Louis Cardinals,+125,+1.5,-130,U 7.5,-105
 2,2024-04-09,Seattle Mariners,-110,-1.5,+155,O 8,-120
 2,2024-04-09,Toronto Blue Jays,-110,+1.5,-190,U 8,+100
-3,2024-04-09,Arizona Diamondbacks,-145,-1.5,+100,O 11.5,+100
-3,2024-04-09,Colorado Rockies,+120,+1.5,-120,U 11.5,-120
+3,2024-04-09,Arizona Diamondbacks,-145,-1.5,+100,O 11,-120
+3,2024-04-09,Colorado Rockies,+120,+1.5,-120,U 11,+100
 4,2024-04-09,Washington Nationals,+165,+1.5,-120,O 8.5,-105
 4,2024-04-09,San Francisco Giants,-200,-1.5,+100,U 8.5,-115
-5,2024-04-09,Tampa Bay Rays,-135,-1.5,+125,O 9,-110
-5,2024-04-09,Los Angeles Angels,+115,+1.5,-150,U 9,-110
-6,2024-04-09,Chicago White Sox,+200,+1.5,-105,O 7.5,-115
-6,2024-04-09,Cleveland Guardians,-250,-1.5,-115,U 7.5,-105
+5,2024-04-09,Tampa Bay Rays,-120,-1.5,+135,O 9,-110
+5,2024-04-09,Los Angeles Angels,+100,+1.5,-160,U 9,-110
+6,2024-04-09,Chicago White Sox,+200,+1.5,+100,O 7.5,-110
+6,2024-04-09,Cleveland Guardians,-250,-1.5,-120,U 7.5,-110
 7,2024-04-09,Milwaukee Brewers,+115,+1.5,-185,O 8.5,-115
 7,2024-04-09,Cincinnati Reds,-135,-1.5,+150,U 8.5,-105
 8,2024-04-09,Chicago Cubs,+120,+1.5,-165,O 8,-115
@@ -25,7 +25,5 @@ game_id,date,team1,moneyline1,rspread1,rspread1odds,truns1,truns1odds
 11,2024-04-09,Atlanta Braves,-160,-1.5,+120,U 9.5,-105
 12,2024-04-09,Houston Astros,-120,-1.5,+135,O 9.5,+100
 12,2024-04-09,Kansas City Royals,+100,+1.5,-160,U 9.5,-120
-13,2024-04-09,Oakland Athletics,+155,+1.5,-120,O 9,-120
-13,2024-04-09,Texas Rangers,-190,-1.5,+100,U 9,+100
-14,2024-04-09,SEA
-14,2024-04-09,TOR
+13,2024-04-09,Oakland Athletics,+150,+1.5,-130,O 9,-120
+13,2024-04-09,Texas Rangers,-185,-1.5,+110,U 9,+100
